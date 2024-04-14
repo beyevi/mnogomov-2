@@ -1,0 +1,102 @@
+body {
+    background-color: #3F3581;
+}
+
+/*==============================================================================*/
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*==============================================================================*/
+.lessons-section {
+    position: relative;
+    width: 70%;
+    left: 0
+}
+
+.lesson {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lesson-progress-bar {
+    background-color: #485F6E;
+    height: 15px;
+    width: 60%;
+    border: 1px solid black;
+    border-radius: 35px;
+}
+.lesson-main-field {
+    background-color: white;
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    border-radius: 35px;
+
+    width: 80%;
+}
+
+.lesson-title {
+    font-size: 20px;
+}
+
+.lesson-begin-button {
+    background-color: #1C97CC;
+    color: white;
+    border-bottom: 1px solid black;
+    border-radius: 35px;
+
+    padding: 10px 40px;
+    font-size: 20px;
+}
+
+.lesson-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.about,
+.tips,
+.exercise-list {
+    height: 30px;
+    width: 100px;
+
+    border: 1px solid black;
+    border-radius: 35px;
+    background-color: #1C97CC;
+
+    align-content: center;
+    text-align: center;
+}
+
+/*==============================================================================*/
+.options-navbar {
+    height: 100%;
+    width: 20%;
+
+    background-color: #21246F;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#user-avatar {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+#options {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
