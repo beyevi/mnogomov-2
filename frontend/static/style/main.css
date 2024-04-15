@@ -1,0 +1,168 @@
+body {
+    background-color: #BEF5CD;
+    height: 100%;
+    /*overflow: hidden;*/
+}
+
+html {
+    font-family: "Tilt Neon", sans-serif;
+    height: 100%;
+    /*overflow: hidden;*/
+}
+
+button {
+    font-family: "Tilt Neon", sans-serif;
+}
+
+/*==============================================================================*/
+
+.main-container {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*==============================================================================*/
+
+
+.lessons-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+
+.unit, .unit-lessons, .lesson {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lesson {
+    align-items: center;
+    margin: 20px 0;
+}
+.lesson-progress-bar {
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 35px;
+    height: 20px;
+    width: 80%;
+    margin-bottom: 2px;
+}
+.lesson-main-field {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+
+    font-size: 12px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    align-items: center;
+    padding: 20px;
+
+    width: 60vw;
+}
+.lesson-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    width: 75%;
+}
+
+.lesson-begin-button {
+    color: white;
+    background-color: #BD9EEF;
+
+    border: 1px solid black;
+    border-radius: 15px;
+
+    height: 50%;
+    width: 20%;
+
+    font-size: 20px;
+}
+
+.lesson-about,
+.lesson-tips,
+.lesson-exercise-list {
+    color: white;
+    background-color: #BD9EEF;
+
+    border: 1px solid black;
+    border-radius: 15px;
+
+    width: 100%;
+    text-align: center;
+}
+
+/*==============================================================================*/
+.options-navbar {
+    position: fixed;
+    overflow: auto;
+
+    width: 20%;
+    height: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    right: 0;
+    top: 0;
+}
+.user-n-language {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#options {
+    align-items: center;
+}
+
+.navbar-option {
+    font-family: "Tilt Neon", sans-serif;
+    font-size: 20px;
+    background-color: #A5EBB8;
+    color: white;
+    width: 80%;
+    margin: 15px 0;
+
+    border-radius: 35px;
+}
+
+.active, .navbar-option:hover {
+    background-color: #27cc78;
+}
+
+#language-flag {
+    width: 60%;
+    margin-top: 20px;
+}
+
+#user-avatar {
+    height: 80px;
+    width: 80px;
+    background-color: #BD9EEF;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+#options {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
