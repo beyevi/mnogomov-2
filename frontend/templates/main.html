@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/style/main.css">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='style/main.css') }}">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -58,12 +58,56 @@
                 </div>
             </div>
         </div>
+
+        <div class="unit">
+            <h1 class="unit-title">Unit 2: Something</h1>
+            <div class="unit-lessons">
+                <div class="lesson">
+                    <span class="lesson-progress-bar"></span>
+                    <div class="lesson-main-field">
+                        <h1 class="lesson-title">Lesson №2.1: Some lesson name</h1>
+                        <button class="lesson-begin-button" onclick="">Begin</button>
+                    </div>
+                    <div class="lesson-options">
+                        <div class="lesson-about">About <i class="fa-solid fa-caret-down"></i></div>
+                        <div class="lesson-tips">Tips <i class="fa-solid fa-caret-down"></i></div>
+                        <div class="lesson-exercise-list">Ex. List <i class="fa-solid fa-caret-down"></i></div>
+                    </div>
+                </div>
+
+                <div class="lesson">
+                    <span class="lesson-progress-bar"></span>
+                    <div class="lesson-main-field">
+                        <h1 class="lesson-title">Lesson №2.2: Some lesson name</h1>
+                        <button class="lesson-begin-button" onclick="">Begin</button>
+                    </div>
+                    <div class="lesson-options">
+                        <div class="lesson-about">About <i class="fa-solid fa-caret-down"></i></div>
+                        <div class="lesson-tips">Tips <i class="fa-solid fa-caret-down"></i></div>
+                        <div class="lesson-exercise-list">Ex. List <i class="fa-solid fa-caret-down"></i></div>
+                    </div>
+                </div>
+
+                <div class="lesson">
+                    <span class="lesson-progress-bar"></span>
+                    <div class="lesson-main-field">
+                        <h1 class="lesson-title">Lesson №2.3: Some lesson name</h1>
+                        <button class="lesson-begin-button" onclick="">Begin</button>
+                    </div>
+                    <div class="lesson-options">
+                        <div class="lesson-about">About <i class="fa-solid fa-caret-down"></i></div>
+                        <div class="lesson-tips">Tips <i class="fa-solid fa-caret-down"></i></div>
+                        <div class="lesson-exercise-list">Ex. List <i class="fa-solid fa-caret-down"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="options-navbar">
         <div class="user-n-language">
             <span id="user-avatar"></span>
-            <img id="language-flag" src="/frontend/static/img/lang-flags/eng.png" alt="">
+            <img id="language-flag" src="{{ url_for('static',filename='img/lang-flags/eng.png') }}" alt="lang-flag">
         </div>
         <div id="options">
             <button class="navbar-option active" id="learn-btn">Learn</button>
@@ -74,5 +118,7 @@
         </div>
     </div>
 </div>
+
+<script src="{{url_for('static', filename='scripts/redirectPagesOnMain.js')}}"></script>
 </body>
 </html>

@@ -4,17 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/style/main.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/dictionary.css') }}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5668ff9fc0.js" crossorigin="anonymous"></script>
     <title>Mnogomov | Dictionary</title>
 </head>
 <body>
     <div class="dict-header">
-        <img class="lang-flag" src="/frontend/static/img/lang-flags/eng.png" alt="English">
-        <h1 id="dict-title"></h1>
-        <img class="lang-flag" src="/frontend/static/img/lang-flags/fr.png" alt="French">
+        <img class="lang-flag" src="{{ url_for('static', filename='img/lang-flags/eng.png') }}" alt="English">
+        <h1 id="dict-title">Your English-French Dictionary</h1>
+        <img class="lang-flag" src="{{ url_for('static', filename='img/lang-flags/fr.png') }}" alt="French">
     </div>
     <div class="dict-words">
-
+        <div class="word-studied">
+            <p>la douleur</p>
+            <p class="word-ipa">[la dulœɾ]</p>
+            <p>the pain</p>
+        </div>
+        <div class="word-studied">
+            <p>la misère</p>
+            <p class="word-ipa">[la mizɛɾə]</p>
+            <p>the misery</p>
+        </div>
+        <div class="word-studied">
+            <p>la déception</p>
+            <p class="word-ipa">[la desɛpsjõ]</p>
+            <p>the disappontment</p>
+        </div>
     </div>
+    <button id="back-to-main-btn">Back to Mainpage</button>
+
+    <script src="{{url_for('static', filename='scripts/redirectPagesOnDict.js')}}"></script>
 </body>
 </html>

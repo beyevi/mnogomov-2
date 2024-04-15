@@ -52,6 +52,8 @@ button {
     margin-bottom: 2px;
 }
 .lesson-main-field {
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
     background-color: white;
     border: 1px solid black;
     border-radius: 15px;
@@ -68,6 +70,8 @@ button {
     width: 60vw;
 }
 .lesson-options {
+    margin-top: 2px;
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -101,6 +105,13 @@ button {
     text-align: center;
 }
 
+.lesson-begin-button:hover,
+.lesson-about:hover,
+.lesson-tips:hover,
+.lesson-exercise-list:hover {
+    background-color: #9e6eec;   
+}
+
 /*==============================================================================*/
 .options-navbar {
     position: fixed;
@@ -116,7 +127,7 @@ button {
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 
     right: 0;
     top: 0;
@@ -154,8 +165,8 @@ button {
 }
 
 #user-avatar {
-    height: 80px;
-    width: 80px;
+    height: 150px;
+    width: 150px;
     background-color: #BD9EEF;
     border: 1px solid black;
     border-radius: 50%;
