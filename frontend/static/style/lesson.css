@@ -1,0 +1,167 @@
+body {
+  background: #DAF4E0;
+  margin: 0;
+  padding: 0; 
+}
+
+.group-4 .rectangle-22 {
+  box-shadow: 1rem 0.3rem 1.3rem 0rem rgba(0, 0, 0, 0.25);
+  border-radius: 1.6rem;
+  background: #FFFFFF;
+  margin-bottom: 3.4rem;
+  width: 52rem;
+  height: 33.6rem;
+}
+.group-4 .option-1 {
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Rounded', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-variant: all-small-caps;
+  color: #000000;
+}
+.group-4 .container-4 {
+  border-radius: 1rem;
+  background: rgba(189, 158, 239, 0.66);
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1.2rem 0.5rem 1.3rem 0;
+  width: 11.8rem;
+  box-sizing: border-box;
+}
+.group-4 .option-3 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Rounded', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-variant: all-small-caps;
+  color: #000000;
+}
+.group-4 .option-32 {
+  position: absolute;
+  left: 3.1rem;
+  top: 1rem;
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Rounded', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-variant: all-small-caps;
+  color: #000000;
+}
+.group-4 .option-31 {
+  position: absolute;
+  left: 3.1rem;
+  top: 1rem;
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Rounded', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-variant: all-small-caps;
+  color: #000000;
+}
+.group-4 .container {
+  border-radius: 1rem;
+  background: rgba(189, 158, 239, 0.62);
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1rem 0.5rem 1.4rem 0;
+  width: 11.8rem;
+  box-sizing: border-box;
+}
+.group-4 .container-1 {
+  margin: 0 0 2.4rem 0.3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 42.1rem;
+  box-sizing: border-box;
+}
+.group-4 .option-2 {
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Rounded', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-variant: all-small-caps;
+  color: #000000;
+}
+.group-4 .container-5 {
+  border-radius: 1rem;
+  background: rgba(189, 158, 239, 0.67);
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1.2rem 0.5rem 1.3rem 0;
+  width: 11.8rem;
+  box-sizing: border-box;
+}
+.group-4 .option-4 {
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Rounded', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-variant: all-small-caps;
+  color: #000000;
+}
+.group-4 .container-2 {
+  border-radius: 1rem;
+  background: rgba(189, 158, 239, 0.68);
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1.2rem 0.3rem 1.3rem 0;
+  width: 11.8rem;
+  box-sizing: border-box;
+}
+.group-4 .container-6 {
+  margin-left: 0.3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 42.1rem;
+  box-sizing: border-box;
+}
+.group-4 .submit {
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Rounded', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-variant: all-small-caps;
+  color: #000000;
+}
+.group-4 .container-3 {
+  border-radius: 1rem;
+  background: rgba(158, 195, 239, 0.68);
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: flex-end;
+  padding: 1.2rem 0.8rem 1.3rem 0;
+  width: 11.8rem;
+  box-sizing: border-box;
+}
+
+.group-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.desktop-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 9.1rem 1.9rem 2.8rem 1.9rem;
+  width: 90rem;
+  height: fit-content;
+  box-sizing: border-box;
+}

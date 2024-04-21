@@ -1,0 +1,121 @@
+body {
+  background: rgba(167, 135, 255, 0.54); 
+  margin: 0; 
+  padding: 0;
+}
+
+.group-2 .ellipse-1432 {
+  margin-bottom: 2.6rem;
+  width: 20.6rem;
+  height: 19.4rem;
+}
+.group-2 .username {
+  margin: 0 1.2rem 2.1rem 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Rounded', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 3.1rem;
+  font-variant: all-small-caps;
+  color: #000000;
+}
+.group-2 .change-name {
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Rounded', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-variant: all-small-caps;
+  color: #000000;
+}
+.group-2 .container {
+  box-shadow: 0.3rem 0.3rem 0.3rem 0rem rgba(0, 0, 0, 0.25);
+  border-radius: 1.3rem;
+  background: #BEF5EF;
+  position: relative;
+  margin-bottom: 3.1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0.8rem 0.6rem 0.8rem 0;
+  width: 13.6rem;
+  box-sizing: border-box;
+}
+.group-2 .change-photo {
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Rounded', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-variant: all-small-caps;
+  color: #000000;
+}
+.group-2 .container-3 {
+  box-shadow: 0.3rem 0.3rem 0.3rem 0rem rgba(0, 0, 0, 0.25);
+  border-radius: 1.3rem;
+  background: #BEF5EF;
+  position: relative;
+  margin-bottom: 3.1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0.8rem 0.5rem 0.8rem 0;
+  width: 13.6rem;
+  box-sizing: border-box;
+}
+.group-2 .view-statistics {
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Rounded', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-variant: all-small-caps;
+  color: #000000;
+}
+.group-2 .container-2 {
+  box-shadow: 0.3rem 0.3rem 0.3rem 0rem rgba(0, 0, 0, 0.25);
+  border-radius: 1.3rem;
+  background: #BEF5EF;
+  position: relative;
+  margin-bottom: 3.1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0.8rem 0.8rem 0.8rem 0;
+  width: 13.6rem;
+  box-sizing: border-box;
+}
+.group-2 .back-to-main {
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Rounded', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-variant: all-small-caps;
+  color: #000000;
+}
+.group-2 .container-1 {
+  box-shadow: 0.3rem 0.3rem 0.3rem 0rem rgba(0, 0, 0, 0.25);
+  border-radius: 1.3rem;
+  background: #BEF5EF;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0.8rem 1.1rem 0.8rem 0;
+  width: 13.6rem;
+  box-sizing: border-box;
+}
+
+.group-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;   box-sizing: border-box;
+}
+
+.desktop-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7rem 0 6.8rem 0;
+  width: 90rem;
+  height: fit-content;
+  box-sizing: border-box;
+}

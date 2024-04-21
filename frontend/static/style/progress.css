@@ -1,0 +1,337 @@
+body {
+  background: #BEF5CD; 
+  margin: 0; 
+  padding: 0; }
+
+.group-3 .stat {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Rounded', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-variant: all-small-caps;
+  color: #000000;
+}
+.group-3 .chapter-title {
+  margin-right: 3.3rem;
+  width: 48.5rem;
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Rounded', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 5.6rem;
+  font-variant: all-small-caps;
+  color: #000000;
+}
+.group-3 .rectangle-18 {
+  border-radius: 1rem;
+  background: linear-gradient(#BD9EEF, #BD9EEF), linear-gradient(#FFFFFF, #FFFFFF), linear-gradient(#FFFFFF, #FFFFFF);
+  width: 11.9rem;
+  height: 1rem;
+}
+.group-3 .container-3 {
+  border-radius: 1rem;
+  background: linear-gradient(#FFFFFF, #FFFFFF), linear-gradient(#FFFFFF, #FFFFFF), linear-gradient(#FFFFFF, #FFFFFF);
+  position: relative;
+  margin: 2.7rem 0 2.9rem 0;
+  width: 15.6rem;
+  height: 1rem;
+  box-sizing: border-box;
+}
+.group-3 .container-5 {
+  margin-bottom: 3.4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 67.4rem;
+  box-sizing: border-box;
+}
+.group-3 .lesson-title {
+  margin-bottom: 0.3rem;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Rounded', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 2.8rem;
+  font-variant: all-small-caps;
+  color: #000000;
+}
+.group-3 .some-info-text {
+  margin: 0.8rem 0.9rem 0.8rem 0;
+  display: inline-block;
+  width: 38.3rem;
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Rounded', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-variant: all-small-caps;
+  color: #858585;
+}
+.group-3 .start {
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Rounded', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-variant: all-small-caps;
+  color: #000000;
+}
+.group-3 .container-6 {
+  border-radius: 1rem;
+  background: #BD9EEF;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0.8rem 0.9rem 0.8rem 0;
+  width: 9.6rem;
+  box-sizing: border-box;
+}
+.group-3 .container-9 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 48.8rem;
+  box-sizing: border-box;
+}
+.group-3 .container-12 {
+  box-shadow: 1rem 0.3rem 3.1rem 0rem rgba(0, 0, 0, 0.25);
+  border-radius: 1.3rem;
+  background: #FFFFFF;
+  position: relative;
+  margin-bottom: 4.6rem;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  padding: 0 3.8rem 2.7rem 1.1rem;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.group-3 .lesson-title-1 {
+  margin-bottom: 0.3rem;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Rounded', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 2.8rem;
+  font-variant: all-small-caps;
+  color: #000000;
+}
+.group-3 .some-info-text-1 {
+  margin: 0.8rem 0.9rem 0.8rem 0;
+  display: inline-block;
+  width: 38.3rem;
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Rounded', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-variant: all-small-caps;
+  color: #858585;
+}
+.group-3 .rectangle-20 {
+  border-radius: 1rem;
+  background: #BD9EEF;
+  width: 9.6rem;
+  height: 3.4rem;
+}
+.group-3 .container-8 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 48.8rem;
+  box-sizing: border-box;
+}
+.group-3 .container-14 {
+  box-shadow: 1rem 0.3rem 3.1rem 0rem rgba(0, 0, 0, 0.25);
+  border-radius: 1.3rem;
+  background: #FFFFFF;
+  position: relative;
+  margin-bottom: 1.9rem;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  padding: 0.1rem 3.8rem 2.1rem 1.1rem;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.group-3 .chapter-title-1 {
+  margin-bottom: 3.2rem;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Rounded', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 5.6rem;
+  font-variant: all-small-caps;
+  color: #000000;
+}
+.group-3 .lesson-title-2 {
+  margin-bottom: 0.5rem;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Rounded', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 2.8rem;
+  font-variant: all-small-caps;
+  color: #000000;
+}
+.group-3 .some-info-text-2 {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Rounded', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-variant: all-small-caps;
+  color: #858585;
+}
+.group-3 .container-11 {
+  margin-bottom: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.group-3 .rectangle-21 {
+  border-radius: 1rem;
+  background: #BD9EEF;
+  margin-top: 2.7rem;
+  width: 9.6rem;
+  height: 3.4rem;
+}
+.group-3 .container-13 {
+  box-shadow: 1rem 0.3rem 3.1rem 0rem rgba(0, 0, 0, 0.25);
+  border-radius: 1.3rem;
+  background: #FFFFFF;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  padding: 0.2rem 3.8rem 2.3rem 1.1rem;
+  width: 53.7rem;
+  box-sizing: border-box;
+}
+.group-3 .container-10 {
+  margin: 4.9rem 5.7rem 5.4rem 0;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-basis: 67.4rem;
+  box-sizing: border-box;
+}
+.group-3 .ellipse-1433 {
+  margin: 0 0 7.9rem 0.1rem;
+  width: 8rem;
+  height: 7.6rem;
+}
+.group-3 .lessons {
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Rounded', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 1.1rem;
+  font-variant: all-small-caps;
+  color: #000000;
+}
+.group-3 .container-7 {
+  border-radius: 1rem;
+  background: #8FD4A2;
+  position: relative;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1.1rem 0.2rem 1.2rem 0;
+  width: 9.2rem;
+  box-sizing: border-box;
+}
+.group-3 .practice {
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Rounded', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 1.1rem;
+  font-variant: all-small-caps;
+  color: #000000;
+}
+.group-3 .container-1 {
+  border-radius: 1rem;
+  background: #A5EBB8;
+  position: relative;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1.1rem 0.4rem 1.2rem 0;
+  width: 9.2rem;
+  box-sizing: border-box;
+}
+.group-3 .profile {
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Rounded', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 1.1rem;
+  font-variant: all-small-caps;
+  color: #000000;
+}
+.group-3 .container {
+  border-radius: 1rem;
+  background: #A5EBB8;
+  position: relative;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1.2rem 0.8rem 1.1rem 0;
+  width: 9.2rem;
+  box-sizing: border-box;
+}
+.group-3 .about-us {
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Rounded', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 1.1rem;
+  font-variant: all-small-caps;
+  color: #000000;
+}
+.group-3 .container-4 {
+  border-radius: 1rem;
+  background: #A5EBB8;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1.2rem 0.4rem 1.1rem 0;
+  width: 9.2rem;
+  box-sizing: border-box;
+}
+.group-3 .container-2 {
+  background: #FFFFFF;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4.3rem 0 14.8rem 0;
+  flex-grow: 1;
+  flex-basis: 14.1rem;
+  box-sizing: border-box;
+}
+.group-3 .desktop-1 {
+  background: #BEF5CD;
+  position: absolute;
+  left: 0rem;
+  top: 0rem;
+  right: 0rem;
+  bottom: 0rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 2.8rem;
+  height: 100%;
+  box-sizing: border-box;
+}
+.group-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 33.6rem 0 28.6rem 4.4rem;
+  width: 90rem;
+  box-sizing: border-box;
+}
