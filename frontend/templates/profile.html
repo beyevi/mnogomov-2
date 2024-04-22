@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Group 2</title>
-    <link rel="stylesheet" href="C:\Users\pc\Downloads\mnogomov-2-master\frontend\static\style\profile.css" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='style/profile.css') }}" />
   </head>
   <body>
     <div class="group-2">
       <div class="desktop-1">
-        <img class="ellipse-1432" src="C:\Users\pc\Downloads\mnogomov-2-master\frontend\static\img\lang-flags\profile_pic.svg" />
+        <img class="ellipse-1432" src="{{ url_for('static',filename='img/profile_pic.svg') }}" />
         <div class="username">
         username
         </div>

@@ -25,9 +25,33 @@
                         <button class="lesson-begin-button" onclick="">Begin</button>
                     </div>
                     <div class="lesson-options">
-                        <div class="lesson-about">About <i class="fa-solid fa-caret-down"></i></div>
+                        <button class="lesson-about">About <i class="fa-solid fa-caret-down"></i></button>
+                        <div class="lesson-about-dropdown">
+
+                        </div>
+
                         <div class="lesson-tips">Tips <i class="fa-solid fa-caret-down"></i></div>
-                        <div class="lesson-exercise-list">Ex. List <i class="fa-solid fa-caret-down"></i></div>
+                        <div class="lesson-tips-dropdown">
+
+                        </div>
+
+                        <div class="lesson-exercise-list">
+                            Ex. List <i class="fa-solid fa-caret-down"></i>
+                            <div class="lesson-exercise-list-dropdown">
+                                <div class="lesson-progress">
+                                    <span>Lesson 1</span>
+                                    <span class="current-progress"></span>
+                                </div>
+                                <div class="lesson-progress">
+                                    <span>Lesson 2</span>
+                                    <span class="current-progress"></span>
+                                </div>
+                                <div class="lesson-progress">
+                                    <span>Lesson 3</span>
+                                    <span class="current-progress"></span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -119,6 +143,6 @@
     </div>
 </div>
 
-<script src="{{url_for('static', filename='scripts/redirectPagesOnMain.js')}}"></script>
+<script src="{{url_for('static', filename='js/main_page/redirectPagesOnMain.js')}}"></script>
 </body>
 </html>
