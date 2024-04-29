@@ -14,9 +14,10 @@
 </head>
 <body>
     <div class="dict-header">
-        <img class="lang-flag" src="{{ url_for('static', filename='img/lang-flags/eng.png') }}" alt="English">
-        <h1 id="dict-title">Your English-French Dictionary</h1>
+        <span id="back-to-main"><i class="fa-solid fa-arrow-left"></i></span>
         <img class="lang-flag" src="{{ url_for('static', filename='img/lang-flags/fr.png') }}" alt="French">
+        <h1 id="dict-title">Your French-to-English Dictionary</h1>
+        <img class="lang-flag" src="{{ url_for('static', filename='img/lang-flags/eng.png') }}" alt="English">
     </div>
     <div class="dict-words">
         <div class="word-studied">
@@ -35,8 +36,7 @@
             <p>the disappontment</p>
         </div>
     </div>
-    <button id="back-to-main-btn">Back to Mainpage</button>
 
-    <script src="{{url_for('static', filename='scripts/dict_page/redirectPagesOnDict.js')}}"></script>
+    <script src="{{url_for('static', filename='js/dict_page/redirectPagesOnDict.js')}}"></script>
 </body>
 </html>

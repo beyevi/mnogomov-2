@@ -47,8 +47,12 @@ button {
 
 /*==============================================================================*/
 
-#back-to-main-btn {
-    height: 10%;
+#back-to-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50%;
+    width: 10%;
     font-size: 40px;
 
     border: 1px solid black;
@@ -57,5 +61,5 @@ button {
     color: white;
     background-color: #BD9EEF;
 
-    height: 200px;
+        /*height: 200px;*/
 }

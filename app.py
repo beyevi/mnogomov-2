@@ -1,13 +1,19 @@
+"""
+Main module for Mnogomov app
+"""
+
 from flask import Flask, render_template
+from flask_sqlalchemy import SQLAlchemy
+# from flask_migrate import Migrate
 import os
 
-
-TEMPLATE_DIR = os.path.abspath('../frontend/templates')
-STATIC_DIR = os.path.abspath('../frontend/static')
+TEMPLATE_DIR = os.path.abspath('./templates')
+STATIC_DIR = os.path.abspath('./static')
 
 
 app = Flask(__name__, template_folder=TEMPLATE_DIR, static_folder=STATIC_DIR)
-
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///mnogomov.db'
+db = SQLAlchemy(app)
 
 # @app.route('/')
 # def display_welcome():
@@ -26,12 +32,12 @@ def display_mainpage():
     return render_template('main.html')
 
 
-@app.route('/practice')
-def display_practice():
-    """
-    Display application practice page
-    """
-    return render_template('practice.html')
+# @app.route('/practice')
+# def display_practice():
+#     """
+#     Display application practice page
+#     """
+#     return render_template('practice.html')
 
 
 @app.route('/dictionary')
@@ -51,7 +57,7 @@ def display_user_profile():
 
 
 # @app.route('/about')
-# def display_dictpage():
+# def display_about():
 #     """
 #     Display application about page
 #     """
